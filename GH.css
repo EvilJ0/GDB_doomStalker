@@ -1,0 +1,247 @@
+body {
+    background: url("png/fon_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+div {
+    display: flex;
+}
+
+#button {
+    background-color: #460000;
+    color: #f3bb8e;
+    box-shadow: #7a7c86;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: EngraversGothic BT;
+    font-size: 1em;
+    transition: all 0.1s ease-out;
+    padding: 10px;
+
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.5),inset 0 0px 30px 20px rgba(0,0,0,0.3);
+    opacity: 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+#buttonBless {
+    background-color: #780000;
+    color: #f3bb8e;
+    box-shadow: #7a7c86;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: EngraversGothic BT;
+    font-size: 1em;
+    transition: all 0.1s ease-out;
+    padding: 10px;
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.5),inset 0 0px 30px 20px rgba(0,0,0,0.3);
+    opacity: 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+#buttonCurse {
+    background-color: #5a0000;
+    color: #f3bb8e;
+    box-shadow: #7a7c86;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: EngraversGothic BT;
+    font-size: 1em;
+    transition: all 0.1s ease-out;
+    padding: 10px;
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.5),inset 0 0px 30px 20px rgba(0,0,0,0.3);
+    opacity: 0;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover {
+    transform: scale(1.1);
+    color: red;
+    background-color: #005100;
+
+}
+
+#bottomR {
+    /*border: dotted 5px red;*/
+    align-items: center;
+    justify-content: center;
+}
+
+#console {
+    background-color: rgba(43, 0, 0, 0.8);
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    overflow-scrolling: initial;
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.5),inset 0 0px 30px 20px rgba(0,0,0,0.3);
+
+}
+.pConsole{
+    font-family: EngraversGothic BT;
+    font-weight: bold;
+    color: #f3bb8e;
+    flex-direction: row;
+}
+.time{
+    font-size: 0.7em;
+    margin: 5px;
+    color: #815f41;
+}
+
+#maine {
+    flex-direction: column;
+    /*border: dotted 5px red;*/
+    height: 90%;
+    width: 90%;
+
+}
+
+#top {
+    width: 100%;
+    flex-direction: row;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    /*border: solid 1px green;*/
+}
+
+#cards {
+    height: 100%;
+    flex-direction: column;
+    flex: 2;
+}
+
+#perks {
+    flex: 1;
+    background: url("png/fon_2.png");
+    background-size: unset;
+    background-repeat: round;
+}
+
+.decks {
+    /*border: solid 3px blue;*/
+    width: 100%;
+    flex: 1;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fulldeck {
+    /*border: solid 3px yellow;*/
+    width: 50%;
+    position: relative;
+}
+
+#deck1 {
+    /*border: solid 3px orange;*/
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+#deck2 {
+    /*border: solid 3px magenta;*/
+    box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+#fulldeck, #deck1, #deck2 {
+    width: 200px;
+    height: 128px;
+    font-family: EngraversGothic BT;
+    font-weight: bold;
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+#back {
+    width: 240px;
+    height: 154px;
+    justify-content: center;
+    position: relative;
+    /*border: solid 3px magenta;*/
+    background-image: url("png/card_back-composite.png");
+}
+
+#buttom, #bottomL, #bottomC, #bottomR {
+    flex: 1;
+}
+
+#bottomC {
+    flex-direction: column;
+}
+
+#buttom {
+    /*border: solid 1px red;*/
+    width: 100%;
+}
+
+
+
+#perks {
+    /*border: 1px solid black;*/
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#perks {
+    height: 100%;
+}
+
+p {
+    text-align: center;
+    font-family: EngraversGothic BT;
+    font-weight: bold;
+    padding: 0px;
+    margin: 10px;
+}
+
+/*img {*/
+/*    display: none;*/
+/*}*/
